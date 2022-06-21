@@ -90,3 +90,5 @@ describe("Employee", () => {
       });
   });
   })
+
+  //insterted tests w dummy data to account for all errors
