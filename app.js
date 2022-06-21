@@ -7,7 +7,7 @@ const fs = require("fs");
 const path = require("path");
 const generator = require("./lib/generator.js");
 const pathtofinalProduct = path.resolve(__dirname,"finalProduct");
-const htmltofinalProduct = path.join(pathtofinalProduct, "team.html");
+const htmltofinalProduct = path.join(pathtofinalProduct, "devTeam.html");
 const teamobjectarray = [];
 
 // Inital Manager Questions + Responses
@@ -125,7 +125,7 @@ const addTeamMember = () => {
 const init = () => {
     
       // using promises instead to refactor code properly
-      fs.writeFileSync(htmltoproduct, generator(teamobjectarray))
+      fs.writeFileSync(htmltofinalProduct, generator(teamobjectarray))
       console.log('Successfully created html in "product" folder') 
   };
   
