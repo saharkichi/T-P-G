@@ -5,7 +5,7 @@ This application was created to generate a html file once the user inputs the re
 
 ## Installation
 
-Inquirer & Jest
+npm i
 
 ## Demo Video
 
